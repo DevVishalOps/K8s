@@ -9,6 +9,9 @@ metadata:
   labels:
     app: banking-ms-app
 spec:
+  selector:
+    matchLabels:
+      app: banking-ms-app
   template:
     metadata:
       labels:
